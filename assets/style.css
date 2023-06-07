@@ -20,7 +20,9 @@ body {
 
 .time-didIt {
   text-align: left;
-  margin-left: 3em;
+}
+p {
+  margin-left: 2em;
 }
 
 header {

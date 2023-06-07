@@ -40,7 +40,7 @@ const addTasksListener = function(){
                 let dataDidIt = document.createElement('p')
                 dataDidIt.classList.add('time-didIt')
                 today = new Date()
-                time ='giorno: ' + today.getDate() +'-'+ (today.getMonth()+1) + ' ore: ' + today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+                time ='Completata il giorno: ' + today.getDate() +' '+ (today.toLocaleString('default', { month: 'short' })) + ' ore: ' + today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
                 dataDidIt.innerText = time
                 a.target.parentElement.appendChild(dataDidIt)
             }
