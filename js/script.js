@@ -35,7 +35,7 @@ const addTasksListener = function(){
     let lastTask = allTasks[allTasks.length- 1]
     lastTask.addEventListener('click', function (a){
             a.target.classList.toggle('taskDid')
-            if (a.target.classList.contains("taskDid") === true)
+            if (a.target.classList.contains("taskDid"))
             {
                 let dataDidIt = document.createElement('p')
                 dataDidIt.classList.add('time-didIt')
