@@ -1,0 +1,32 @@
+body {
+  height: 100vh;
+  background: linear-gradient(45deg, #54ffb0, transparent);
+}
+
+.task * {
+  display: inline;
+}
+
+.task {
+  margin: 1em;
+  padding: 1em;
+  border: 1px black solid;
+  background: linear-gradient(269deg, #00000029, transparent);
+}
+
+.taskDid {
+  text-decoration: line-through;
+}
+
+.time-didIt {
+  text-align: left;
+  margin-left: 3em;
+}
+
+header {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
